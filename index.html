@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 	<title>SHOPNO</title>
 
 	<script src="https://kit.fontawesome.com/bc68fc6055.js" crossorigin="anonymous"></script>
-	<script src="https://api-maps.yandex.ru/2.1/?apikey=ad5231ae-5877-4a34-a85d-9ae332fd040b&lang=ru_RU" type="text/javascript"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=ad5231ae-5877-4a34-a85d-9ae332fd040b&lang=ru_RU"></script>
 
 	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 	<link rel="stylesheet" href="assets/css/lightbox.min.css">
@@ -25,7 +25,7 @@
 			<div class="navWrapper">
 				<h1 class="logo">SH<span>O</span>PNO</h1> 
 				<nav class="nav">
-					<div class="menuButton" onclick="showMenu()" onblur="showMenu()">
+					<div class="menuButton" onclick="showMenu()">
 							<i class="fas fa-bars"></i>
 					</div>
 					<ul id="menu">
@@ -68,7 +68,7 @@
 					<div class="aboutUsSlider_backgrounds"></div>
 					<div class="aboutUsSlider_status swiper-pagination">
 						<div class="aboutUsSlider_status__inactive "></div>
-						<div class="aboutUsSlider_status__active "></div>
+						<div class="aboutUsSlider_status__inactive "></div>
 						<div class="aboutUsSlider_status__inactive "></div>
 						<div class="aboutUsSlider_status__inactive "></div>
 					</div>
@@ -140,7 +140,7 @@
 									of the first candidates. You may even catch the client while they’re still online.
 								</span>
 							</p>
-							<div class="ourServicesContent_more" onclick="showMoreInformation()">KNOW MORE <i class="fas fa-long-arrow-alt-right"></i></div>
+							<div class="ourServicesContent_more" onclick="showMoreInformation()"><span>KNOW MORE <i class="fas fa-long-arrow-alt-right"></i></span></div>
 							<div class="ourServicesContent_close" onclick="hideMoreInformation()"><i class="fas fa-times"></i></div>
 						</div>
 					</div>
@@ -153,7 +153,7 @@
 									five minutes ago, and we think it’s a good match for you.
 								</span>
 							</p>
-							<div class="ourServicesContent_more" onclick="showMoreInformation()">KNOW MORE <i class="fas fa-long-arrow-alt-right"></i></div>
+							<div class="ourServicesContent_more" onclick="showMoreInformation()"><span>KNOW MORE <i class="fas fa-long-arrow-alt-right"></i></span></div>
 							<div class="ourServicesContent_close" onclick="hideMoreInformation()"><i class="fas fa-times"></i></div>
 						</div>
 					</div>
@@ -168,7 +168,7 @@
 									candidates. You may even catch the client while they’re still online.
 								</span>
 							</p>
-							<div class="ourServicesContent_more" onclick="showMoreInformation()">KNOW MORE <i class="fas fa-long-arrow-alt-right"></i></div>
+							<div class="ourServicesContent_more" onclick="showMoreInformation()"><span>KNOW MORE <i class="fas fa-long-arrow-alt-right"></i></span></div>
 							<div class="ourServicesContent_close" onclick="hideMoreInformation()"><i class="fas fa-times"></i></div>
 						</div>
 					</div>
@@ -181,7 +181,7 @@
 									five minutes ago, and we think it’s a good match for you.
 								</span>
 							</p>
-							<div class="ourServicesContent_more" onclick="showMoreInformation()">KNOW MORE <i class="fas fa-long-arrow-alt-right"></i></div>
+							<div class="ourServicesContent_more" onclick="showMoreInformation()"><span>KNOW MORE <i class="fas fa-long-arrow-alt-right"></i></span></div>
 							<div class="ourServicesContent_close" onclick="hideMoreInformation()"><i class="fas fa-times"></i></div>
 						</div>
 					</div>
@@ -194,7 +194,7 @@
 									five minutes ago, and we think it’s a good match for you.
 								</span>
 							</p>
-							<div class="ourServicesContent_more" onclick="showMoreInformation()">KNOW MORE <i class="fas fa-long-arrow-alt-right"></i></div>
+							<div class="ourServicesContent_more" onclick="showMoreInformation()"><span>KNOW MORE <i class="fas fa-long-arrow-alt-right"></i></span></div>
 							<div class="ourServicesContent_close" onclick="hideMoreInformation()"><i class="fas fa-times"></i></div>
 						</div>
 					</div>
@@ -209,7 +209,7 @@
 									candidates. You may even catch the client while they’re still online.
 								</span>
 							</p>
-							<div class="ourServicesContent_more" onclick="showMoreInformation()">KNOW MORE <i class="fas fa-long-arrow-alt-right"></i></div>
+							<div class="ourServicesContent_more" onclick="showMoreInformation()"><span>KNOW MORE <i class="fas fa-long-arrow-alt-right"></i></span></div>
 							<div class="ourServicesContent_close" onclick="hideMoreInformation()"><i class="fas fa-times"></i></div>
 						</div>
 					</div>
@@ -378,10 +378,10 @@
 		<div class="wrapper">
 			<div class="contacts">
 				<div class="contactsForm">
-					<input type="text"  placeholder="Name">
-					<input type="text"  placeholder="Subject">
-					<input type="email"  placeholder="E-mail">
-					<textarea  placeholder="Message"></textarea>
+					<input type="text"  placeholder="Name*">
+					<input type="text"  placeholder="Subject*">
+					<input type="email"  placeholder="E-mail*">
+					<textarea  placeholder="Message*"></textarea>
 					<div class="contactsFormButtonContainer">
 							<div class="contactsForm_button"><span>SEND MESSAGE</span></div>
 					</div>	
